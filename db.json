@@ -1,10 +1,12 @@
 {
   "users": [
-    { "id": 1, "name": "Alice", "email": "alice@example.com", "role": "admin" },
-    { "id": 2, "name": "Bob", "email": "bob@example.com", "role": "user" }
+    { "id": 101, "name": "Sophia", "email": "sophia@example.com", "status": "active" },
+    { "id": 102, "name": "Ethan", "email": "ethan@example.com", "status": "pending" },
+    { "id": 103, "name": "Liam", "email": "liam@example.com", "status": "suspended" }
   ],
   "posts": [
-    { "id": 1, "title": "Hello REST", "userId": 1, "tags": ["intro", "rest"] },
-    { "id": 2, "title": "JSON Tips", "userId": 2, "tags": ["json"] }
+    { "id": 201, "title": "Asynchronous Programming Basics", "userId": 101, "tags": ["programming", "csharp"] },
+    { "id": 202, "title": "How to Configure a Server", "userId": 102, "tags": ["backend", "devops"] },
+    { "id": 203, "title": "Design Patterns Overview", "userId": 103, "tags": ["architecture", "oop"] }
   ]
 }
